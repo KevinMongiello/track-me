@@ -1,0 +1,5 @@
+.date-picker-wrapper .MuiInput-root,
+.date-picker-wrapper .MuiInputLabel-formControl,
+.date-picker-wrapper .MuiSvgIcon-root {
+    color: white !important;
+}
