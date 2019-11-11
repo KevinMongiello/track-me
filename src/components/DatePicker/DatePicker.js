@@ -7,7 +7,7 @@ import {
 } from '@material-ui/pickers';
 import './DatePicker.css';
 
-export default function DatePicker({ value, onChange }) {
+export default function DatePicker({ date, onChange }) {
     return (
         <div className='date-picker-wrapper'>
             <MuiPickersUtilsProvider utils={DateFnsUtils}>
@@ -18,7 +18,7 @@ export default function DatePicker({ value, onChange }) {
                     margin="normal"
                     id="date-picker-inline"
                     label="Date picker inline"
-                    value={value}
+                    value={date}
                     onChange={onChange}
                     KeyboardButtonProps={{
                         'aria-label': 'change date',
